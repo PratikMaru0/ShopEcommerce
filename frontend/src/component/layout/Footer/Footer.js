@@ -14,7 +14,8 @@ const Footer = () => {
       </div>
 
       <div className="midFooter">
-        <h1>ECOMMERCE.</h1>
+        {/* <h1>ECOMMERCE.</h1> */}
+        <img src="C:\Users\prati\OneDrive\Desktop\mernProjectEcommerce\frontend\src\images\Logo1.jpg" alt="" />
         <p>High Quality is our first priority</p>
 
         <p>Copyrights 2021 &copy; MeAbhiSingh</p>
