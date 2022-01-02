@@ -1,7 +1,7 @@
 .loading {
   width: 100vw;
   height: 100vh;
-  background-color: white;
+  background-color: #1c1f2f;
   display: grid;
   place-items: center;
   max-width: 100%;
@@ -10,8 +10,7 @@
 .loading > div {
   width: 10vmax;
   height: 10vmax;
-  border-bottom: 5px solid rgba(0, 0, 0, 0.719);
-
+  border-bottom: 5px solid #a100ff;
   border-radius: 50%;
 
   animation: loadingRotate 800ms linear infinite;
