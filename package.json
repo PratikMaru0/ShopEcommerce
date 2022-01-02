@@ -20,6 +20,8 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.2.1",
     "git": "^0.1.5",
+    "heroku": "^7.59.2",
+    "heroku-cli": "^7.0.9",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.5",
     "nodemailer": "^6.6.3",
