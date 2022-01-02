@@ -12,10 +12,6 @@
   color: white;
 }
 
-.box{
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1));
-}
-
 .banner > h1 {
   margin: 5vmax;
 
@@ -29,7 +25,7 @@
 .banner > a > button {
   margin-bottom: 5vmax;
   cursor: pointer;
-  background-color:white;
+  background-color: white;
   border: 1px solid white;
   border-radius: 8px;
   padding: 1vmax;
@@ -38,7 +34,7 @@
   font: 500 1vmax "Roboto";
 }
 .banner > a > button:hover {
-  background-color:#635dc0;
+  background-color: #a100ff;
   color: white;
 }
 
