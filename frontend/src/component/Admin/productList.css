@@ -36,11 +36,11 @@
 }
 
 .productListTable a:hover {
-  color: tomato;
+  color: #a100ff;
 }
 
 .productListTable button:hover {
-  color: rgb(236, 30, 30);
+  color: #a100ff;
 }
 
 .MuiDataGrid-columnHeader div {

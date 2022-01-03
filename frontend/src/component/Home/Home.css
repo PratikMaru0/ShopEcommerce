@@ -83,6 +83,7 @@
 
 .productCard > img {
   width: 14vmax;
+  border-radius: 20px;
 }
 
 .productCard > div {
@@ -106,7 +107,7 @@
 
 .productCard > span {
   margin: 0.5vmax;
-  color: tomato;
+  color: #a100ff;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1vmax;
 }
@@ -114,7 +115,7 @@
 .productCard:hover {
   box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
 
-  transform: translateY(-1vmax);
+  transform: translateY(-0.5vmax);
 }
 
 @media screen and (max-width: 600px) {
