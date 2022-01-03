@@ -7,6 +7,7 @@ const ProductCard = ({ product }) => {
     value: product.ratings,
     readOnly: true,
     precision: 0.5,
+    activeColor: "#a000ff",
   };
   return (
     <Link className="productCard" to={`/product/${product._id}`}>
@@ -19,7 +20,7 @@ const ProductCard = ({ product }) => {
           ({product.numOfReviews} Reviews)
         </span>
       </div>
-      <span>{`₹${product.price}`}</span>
+      <span>{`₹ ${product.price}`}</span>
     </Link>
   );
 };
