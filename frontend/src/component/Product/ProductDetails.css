@@ -22,6 +22,10 @@
   align-items: flex-start;
 }
 
+.radius{
+  border-radius: 8px;
+}
+
 .CarouselImage {
   width: 20vmax;
 }

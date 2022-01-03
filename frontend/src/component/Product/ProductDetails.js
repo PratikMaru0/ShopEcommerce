@@ -107,7 +107,7 @@ const ProductDetails = ({ match }) => {
         <Fragment>
           <MetaData title={`${product.name} -- ECOMMERCE`} />
           <div className="ProductDetails">
-            <div>
+            <div className = "radius">
               <Carousel>
                 {product.images &&
                   product.images.map((item, i) => (
@@ -152,7 +152,7 @@ const ProductDetails = ({ match }) => {
                 <p>
                   Status:
                   <b className={product.Stock < 1 ? "redColor" : "greenColor"}>
-                    {product.Stock < 1 ? "OutOfStock" : "InStock"}
+                    {product.Stock < 1 ? "Out Of Stock" : "In Stock"}
                   </b>
                 </p>
               </div>
