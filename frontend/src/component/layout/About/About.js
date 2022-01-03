@@ -37,7 +37,7 @@ const About = () => {
           <div className="aboutSectionContainer2">
             <Typography component="h2">For Code</Typography>
             <a
-              href="https://github.com/PratikMaru0/mernProjectEcommerce"
+              href="https://github.com/PratikMaru0/ShopEcommerce"
               target="blank"
             >
               <GitHub className="youtubeSvgIcon" />
