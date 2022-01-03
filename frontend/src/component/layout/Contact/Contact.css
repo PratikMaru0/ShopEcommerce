@@ -1,28 +1,101 @@
-.contactContainer {
+.c{
   height: 100vh;
-  width: 100vw;
-  max-width: 100%;
-  display: grid;
-  place-items: center;
-  background-color: white;
-  position: fixed;
+  position: relative;
 }
 
-.mailBtn {
-  text-decoration: none;
-  transform: translateX(-100vw);
-  animation: mailBtnAnimation 2s forwards;
+.c-bg{
+  width: 20px;
+  height: 100%;
+  background-color:#6C63FF;
+  position: absolute;
 }
 
-.mailBtn > button {
-  text-decoration: none;
-  font: 200 2vmax "Roboto";
-  cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
-  padding: 2vmax;
+.c-wrapper{
+  padding: 50px;
+  display: flex;
 }
 
-@keyframes mailBtnAnimation {
-  to {
-    transform: translateX(0);
+.c-left{
+  flex: 1;
+}
+
+.c-right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-title{
+  font-size: 60px;
+  width: 80%;
+
+}
+
+.c-info-item{
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  font-size: large;
+  font-weight:500;
+}
+
+.c-icon{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 13px;
+}
+
+.c-desc{
+  font-weight: 200;
+}
+
+form{
+  margin-top: 20px;
+}
+
+input{
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black ;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+textarea{
+  width: 100%;
+}
+
+button{
+  border: none;
+  padding: 15px;
+  background-color: #6C63FF;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.msg{
+  padding: 15px;
+  font-size: large;
+  margin: 5px;
+}
+
+
+@media screen and (max-width:480px){
+  .c-wrapper{
+      flex-direction: column;
+  }
+
+  form{
+      margin-top: 0px;
+      display: flex;
+      flex-wrap: wrap;
   }
 }
