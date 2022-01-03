@@ -1,7 +1,10 @@
-import React from "react";
+import React , { useState }from "react";
 import "./Contact.css";
-import { Button } from "@material-ui/core";
+// import { Button } from "@material-ui/core";
 import { useRef } from "react";
+import Phone from "../../../images/call.jpeg"
+import Email from "../../../images/mail.jpeg"
+import Address from "../../../images/address.jpeg"
 import emailjs from "emailjs-com";
 
 const Contact = () => {
