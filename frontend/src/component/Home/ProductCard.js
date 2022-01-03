@@ -8,6 +8,7 @@ const ProductCard = ({ product }) => {
     readOnly: true,
     precision: 0.5,
     activeColor: "#a000ff",
+    icon : <FavoriteIcon />,
   };
   return (
     <Link className="productCard" to={`/product/${product._id}`}>
