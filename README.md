@@ -1,10 +1,10 @@
 # MERN E-COMMERCE TUTORIAL
 
-Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+Hi! My name is **Pratik Maru**, This website name is "HandiCraft Stores" where users can buy HandiCrafts coming from different parts of India. This is my college project.
 
 # Prerequisite
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
+1. One Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** .I learned this technologies from youtube channel name "6 Pack Programmer" instructor name Abhi Singh . **Links are Below respectively**
 2.  Node - https://youtu.be/BSO9C8Z-YV8
 3.  React - https://youtu.be/99kgUCIMboY
 4.  Express - https://youtu.be/teipbke8c4A\
@@ -20,6 +20,11 @@ Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN St
 ## Env Variables
 
 Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
+
+## Note
+
+Please install "react-router-dom" version 5.3.0 
+`npm i react-router-dom@5.3.0`
 
 **Essential Variables**
 PORT=
@@ -41,7 +46,6 @@ _fill each filed with your info respectively_
 
 ## Author
 
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+**Instagram** Click [Here](https://www.instagram.com/patrick.__01/) **@patrick.__01**
+**LinkedIn** Click [Here](https://www.linkedin.com/in/pratik-maru-383609185) **@PratikMaru**
+**Twitter** Click [Here](https://twitter.com/pratikmaru01) **@pratikmaru01**
