@@ -14,12 +14,15 @@
 
 .banner > h1 {
   margin: 5vmax;
-
   font: 600 2.5vmax "Roboto";
+  background-color:  rgba(160, 0, 255, 0.3);
+  user-select: none;
 }
 
 .banner > p {
   font: 300 1.4vmax "Lucida Sans";
+  background-color:  rgba(160, 0, 255, 0.2);
+  user-select: none;
 }
 
 .banner > a > button {
