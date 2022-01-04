@@ -7,7 +7,7 @@ const options = {
   burgerColor : "#a100ff",
   logo,
   logoWidth: "15vmax",
-  navColor1: "white",
+  navColor1: "rgba(255,255,255,0.5)",
   logoHoverSize: "10px",
   logoHoverColor: "#b0b0ff",
   link1Text: "Home",
