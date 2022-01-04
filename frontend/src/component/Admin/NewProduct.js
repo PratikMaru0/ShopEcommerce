@@ -31,13 +31,11 @@ const NewProduct = ({ history }) => {
     "Pottery",
     "Sewing",
     "Fashion",
-    "HandBags",
     "Weaving",
     "WoodWorking",
     "DecorativeCrafts",
     "BambooHandicrafts",
     "Quilting",
-    "NeedleWork",
     "Others",
   ];
 

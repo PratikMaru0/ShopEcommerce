@@ -14,13 +14,11 @@ const categories = [
   "Pottery",
   "Sewing",
   "Fashion",
-  "HandBags",
   "Weaving",
   "WoodWorking",
   "DecorativeCrafts",
   "BambooHandicrafts",
   "Quilting",
-  "NeedleWork",
   "Others"
 ];
 
