@@ -61,7 +61,7 @@ const Contact = () => {
             <textarea name="5" id="" cols="30" rows="6" placeholder="Message" name="message" className="msg"></textarea>
 
             <button className="contactBtn">Submit</button><br />
-            {done && "Thank you.... Got ur msg. I'll reply ASAP"}
+            {done && "Thank you for contacting us. We'll try to reply you ASAP."}
 
           </form>
         </div>
